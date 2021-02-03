@@ -3,7 +3,7 @@ React Native 날씨앱 개발
 ## 0203 ~
 
 ### 0. Introduction 
-##요구사항##
+**요구사항**
 NodeJs /NPM / Expo / Android Studio (for simulating)
 
 * expo 설치
@@ -22,3 +22,7 @@ NodeJs /NPM / Expo / Android Studio (for simulating)
 
 * Live Reload 란?
 > 작업을 저장하면 자동으로 리프레쉬 되고, 변경된 내용을 즉시 확인하게 해주는 것
+
+* 모바일 앱 만드는 3가지 방법
+1. Full native: Swift or obj-c로 IOS 앱 만드는 것, Java or 코틀린 가지고 만드는 안드로이드 앱.
+2. 앱 기반 웹뷰를 만드는 것:
