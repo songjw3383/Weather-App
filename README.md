@@ -60,3 +60,8 @@ await Location.requestPermissionsAsync();
 ```
 4. Catch(error) 문으로 에러문을 작성
 
+* openweathermap.org 로 날씨 정보가져오기 (API key 정의해주고)
+* URL 정의 (백틱 사용) : $(경도), $(위도) , $(API_KEY)
+
+### 2. STYLES
+* units=metric 추가 (온도 섭씨 전환)
