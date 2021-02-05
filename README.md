@@ -1,6 +1,6 @@
 React Native 날씨앱 개발
 
-## 0203 ~
+## 0203 ~ 0206
 
 ### 0. Introduction 
 **요구사항**
@@ -65,3 +65,30 @@ await Location.requestPermissionsAsync();
 
 ### 2. STYLES
 * units=metric 추가 (온도 섭씨 전환)
+
+* 아이콘 추가 -> expo/vector-icons 라이브러리 사용
+> import { MaterialCommunityIcons } from "@expo/vector-icons";
+
+* CSS 는 linear-gradient를 사용
+> import { LinearGradient } from 'expo-linear-gradient';
+
+* StatusBar 색상 변경은 React-native 에서 지원
+> import { StatusBar } from "react-native";
+
+* const weatherOptions 생성후 각각의 날씨 정보들을 배열로 저장
+```
+Thunderstorm: {
+    iconName: "weather-lightning",
+    gradient: ["#373B44", "#4286f4"],
+    title: "Thunderstorm",
+    subtitle: "Don't go outside, You gonna die by thunderstorm :)"
+  },
+ ```
+ > Thunderstorm 예시
+
+## Conclusions
+<img src="https://user-images.githubusercontent.com/56250064/107066184-feeb2e80-6820-11eb-8cd9-c27933ad1b03.jpg"  width="300" height="600" >
+
+<img src="https://user-images.githubusercontent.com/56250064/107066182-fdba0180-6820-11eb-9811-a73cfa58901e.jpg"  width="250" height="550" align="left">
+<img src="https://user-images.githubusercontent.com/56250064/107066186-feeb2e80-6820-11eb-9576-4115e8bcb942.jpg"  width="250" height="550" align="left">
+<img src="https://user-images.githubusercontent.com/56250064/107066188-ff83c500-6820-11eb-89b4-b4993793308d.jpg"  width="250" height="550" align="left">
