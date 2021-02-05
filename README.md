@@ -88,7 +88,7 @@ Thunderstorm: {
 
 ### Conclusions
 <img src="https://user-images.githubusercontent.com/56250064/107066184-feeb2e80-6820-11eb-8cd9-c27933ad1b03.jpg"  width="300" height="600" >
-> 로딩화면
+
 <img src="https://user-images.githubusercontent.com/56250064/107066182-fdba0180-6820-11eb-9811-a73cfa58901e.jpg"  width="300" height="600" align="left">
-<img src="https://user-images.githubusercontent.com/56250064/107066186-feeb2e80-6820-11eb-9576-4115e8bcb942.jpg"  width="300" height="600">
-<img src="https://user-images.githubusercontent.com/56250064/107066188-ff83c500-6820-11eb-89b4-b4993793308d.jpg"  width="300" height="600">
+<img src="https://user-images.githubusercontent.com/56250064/107066186-feeb2e80-6820-11eb-9576-4115e8bcb942.jpg"  width="300" height="600" align="left">
+<img src="https://user-images.githubusercontent.com/56250064/107066188-ff83c500-6820-11eb-89b4-b4993793308d.jpg"  width="300" height="600" align="left">
