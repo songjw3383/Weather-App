@@ -65,3 +65,23 @@ await Location.requestPermissionsAsync();
 
 ### 2. STYLES
 * units=metric 추가 (온도 섭씨 전환)
+
+* 아이콘 추가 -> expo/vector-icons 라이브러리 사용
+> import { MaterialCommunityIcons } from "@expo/vector-icons";
+
+* CSS 는 linear-gradient를 사용
+> import { LinearGradient } from 'expo-linear-gradient';
+
+* StatusBar 색상 변경은 React-native 에서 지원
+> import { StatusBar } from "react-native";
+
+* const weatherOptions 생성후 각각의 날씨 정보들을 배열로 저장
+```
+Thunderstorm: {
+    iconName: "weather-lightning",
+    gradient: ["#373B44", "#4286f4"],
+    title: "Thunderstorm",
+    subtitle: "Don't go outside, You gonna die by thunderstorm :)"
+  },
+ ```
+ > Thunderstorm 예시
